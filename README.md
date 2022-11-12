@@ -5,8 +5,8 @@
 <br>The first dataset had 300 images and labels based on Monai transformers we made synthetic data and finally we had 2000 images for training model.
 <br>For preprocessing our dataset we used Monai library too.
 <br>We used **efficientnet-b7**, the state of the art architecture for image classification.
-<br>Before we do the image classification we split the dataset to train, validation and test based on the number of dead people. 70 percent of dead people belong to train and 30 percent of dead people belong to test.
-<br>We saved the indices in a csv file to use it for image classification.
+<br>Before we do the image classification we split the dataset to train, validation and test based on the number of dead people. You can find it in Make_T&V&T_Dataset_Indexes.py. 70 percent of dead people belong to train and 30 percent of dead people belong to test.
+<br>We saved the indices in a csv file to use it for image classification. And for image classification you can find it in Classification_indexesBased.py.
 <br>The trained model is saved in this link : https://drive.google.com/file/d/1FgR79XtAVXQpDR4Q7vbxy08yEX-_1KtL/view?usp=sharing. If you want to load the model you should make a model like this:
 ```
 device = torch.device("cuda:0")
