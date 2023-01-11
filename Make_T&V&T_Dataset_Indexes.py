@@ -1,3 +1,4 @@
+#written by Maryam Mahootiha
 #make the indices for image classification
 #the purpose was splitting the dataset in a way that put 70 percent of dead people 
 #in training and 30 percent of dead people in test dataset
